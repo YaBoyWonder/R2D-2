@@ -1,7 +1,7 @@
 import Sword
 
 let options = ShieldOptions()
-options.prefixes = ["!"]
+options.prefixes = ["r."]
 
 let bot = Shield(token: "Bot", shieldOptions: options)
 
