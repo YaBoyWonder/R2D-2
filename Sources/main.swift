@@ -2,7 +2,6 @@ import Sword
 
 let options = ShieldOptions()
 options.prefixes = ["r."]
-
 let bot = Shield(token: "Bot", shieldOptions: options)
 
 bot.on(.messageCreate) { data in
