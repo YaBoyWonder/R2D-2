@@ -9,7 +9,8 @@ bot.on(.messageCreate) { data in
   if msg.content == "r.ping" {
    let embed = ["embed": [
   "title": "Owner",
-  "description": "Wonder™#3350"
+  "description": "Wonder™#3350",
+   "field title": "with love ❤"
 ]]
 
 bot.send(embed, to: channelId)
