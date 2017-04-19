@@ -19,6 +19,8 @@ bot.send(embed, to: channelId)
 
 bot.register("ping", message: "Pong!")
 
+bot.register("music", message: "https://discordapp.com/oauth2/authorize?client_id=264087326492327938&permissions=70642768&scope=bot")
+
 bot.register("join") { message, args in
   guard message.member?.voiceState != nil else {
     message.reply(with: "Voice Channel not found")
