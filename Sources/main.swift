@@ -21,7 +21,7 @@ bot.on(.messageCreate) { data in
 }   
        
 bot.send(embed, to: channelId)
-  }
+   }
 }
 
 ot.register("github", message: "https://github.com/YaBoyWonder <= Thats the link to the creator")
