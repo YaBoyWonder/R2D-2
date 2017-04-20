@@ -44,7 +44,7 @@ bot.register("join") { message, args in
 
 bot.register("leave") { msg, args in
   guard msg.member?.voiceState != nil else {
-    msg.reply(with: "User not located.")
+    msg.reply(with: "User not located, where are you 👀")
 
     return
   }
