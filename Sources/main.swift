@@ -13,6 +13,13 @@ bot.on(.messageCreate) { data in
    "field title": "with love ❤"
 ]]
 
+ bot.on(.messageCreate) { data in
+  let msg = data[0] as! Message
+  if msg.content == "r.src" {
+    msg.reply(with: "https://github.com/YaBoyWonder/R2D-2 <= Source code for R2D-2")
+  }
+}   
+       
 bot.send(embed, to: channelId)
   }
 }
