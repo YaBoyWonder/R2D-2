@@ -34,6 +34,8 @@ bot.send(embed, to: channelId)
 
 ot.register("github", message: "https://github.com/YaBoyWonder <= Thats the link to the creator")
 
+ot.register("playlist", message: "https://www.youtube.com/playlist?list=PLmBEmthiPlqpnZnUri6SqruR4kq6GMM6L Rap Playlist")
+
 bot.register("ping", message: "Pong!")
 
 bot.register("music", message: "https://discordapp.com/oauth2/authorize?client_id=264087326492327938&permissions=70642768&scope=bot")
