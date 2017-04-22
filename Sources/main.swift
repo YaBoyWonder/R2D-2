@@ -23,7 +23,7 @@ bot.on(.messageCreate) { data in
  bot.on(.messageCreate) { data in
   let msg = data[0] as! Message
   if msg.content == "r.about" {
-     msg.reply(with: "A Discord Bot Coded in Swift **https://github.com/YaBoyWonder/R2D-2**")
+    msg.reply(with: "A Discord Bot Coded in Swift **https://github.com/YaBoyWonder/R2D-2**")
  }
 }   
       
