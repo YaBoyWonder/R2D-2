@@ -19,7 +19,15 @@ bot.on(.messageCreate) { data in
     msg.reply(with: "https://github.com/YaBoyWonder/R2D-2 <= Source code for R2D-2")
  }
 }   
-       
+
+ bot.on(.messageCreate) { data in
+  let msg = data[0] as! Message
+  if msg.content == "r.about" {
+    msg.reply(with: "A Discord Bot Coded in Swift **https://github.com/YaBoyWonder/R2D-2**")
+ }
+}   
+      
+    
 bot.send(embed, to: channelId)
     }
 }
