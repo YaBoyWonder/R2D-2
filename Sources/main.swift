@@ -9,8 +9,7 @@ bot.on(.messageCreate) { data in
   if msg.content == "r.ping" {
    let embed = ["embed": [
   "title": "Owner",
-  "description": "Wonder™#3350",
-   "field title": "with love ❤"
+  "description": "Wonder™#3350"
 ]]
 
  bot.on(.messageCreate) { data in
@@ -20,6 +19,10 @@ bot.on(.messageCreate) { data in
  }
 }   
 
+bot.on(.ready) { _ in
+  bot.editStatus(to: "online", playing: "with Wonder❤")
+}
+    
  bot.on(.messageCreate) { data in
   let msg = data[0] as! Message
   if msg.content == "r.about" {
