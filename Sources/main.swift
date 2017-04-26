@@ -8,6 +8,7 @@ bot.on(.messageCreate) { data in
   let msg = data[0] as! Message
   if msg.content == "r.ping" {
    let embed = ["embed": [
+   "color": 0xFFC133,  
   "title": "Owner",
   "description": "Wonder™#3350"
 ]]
