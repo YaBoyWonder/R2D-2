@@ -23,7 +23,7 @@ bot.on(.messageCreate) { data in
 bot.on(.ready) { _ in
   bot.editStatus(to: "online", playing: "with Wonder❤")
 }
-    
+   
  bot.on(.messageCreate) { data in
   let msg = data[0] as! Message
   if msg.content == "r.about" {
