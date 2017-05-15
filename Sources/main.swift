@@ -31,7 +31,6 @@ bot.on(.ready) { _ in
  }
 }   
       
- 
 bot.send(embed, to: channelId)
     }
 }
